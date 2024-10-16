@@ -1,0 +1,24 @@
+{
+    "projects" : [
+        {
+            "name": "project",
+            "text": "This is the project I made, isn't it great?",
+            "links": "Github",
+            "logo": "Github"
+        },
+
+        {
+            "name": "project",
+            "text": "This is the project I made, isn't it great?",
+            "links": "Github",
+            "logo": "Github"
+        },
+
+        {
+            "name": "project",
+            "text": "This is the project I made, isn't it great?",
+            "links": "Github",
+            "logo": "Github"
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+body {
+    background-image: linear-gradient(to right, rgb(0, 0, 18), rgb(8, 3, 72), rgb(0, 0, 18));
+}
+
+.home-link {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-link a {
+    font-family: "Bungee", sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.home-link a:hover {
+    color:rgb(52, 172, 216);
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(78, 16, 159), rgb(52, 172, 216), rgb(100, 11, 105));
+    padding: 20px;
+}
+
+header .links a:hover {
+    background-color: rgba(16, 124, 124, 0.8);
+    border-radius: 10px;
+}
+
+header .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .links a {
+    font-family: "Bungee", sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.8s;
+}
+
+.contact-h4 {
+    font-family: "Bungee", sans-serif;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-gif img #arrow-icon {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact-gif {
+    position: relative;
+}
+
+.contact-gif #background-gif {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-links {
+    position: absolute;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);  
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.contact-links a {
+    font-family: "Bungee", sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.contact-links .a1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.contact-links .a2 {
+    grid-area: 1 / 2 / 2 / 3;
+} 
+
+.contact-links a:hover {
+    text-decoration: underline;
+    color:rgb(52, 172, 216);
+}
+
+header .links img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-family: "Bungee", sans-serif;
+    background-image: linear-gradient(to right, rgb(127, 61, 165), rgb(151, 224, 249), rgb(81, 7, 104));
+    color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 60px;
+}
+
+.about-me h4 {
+    font-family: "Bungee", sans-serif;
+    text-decoration: underline;
+    color: rgb(205, 205, 205);
+    text-align: center;
+}
+
+
+.paragraphs {
+    font-family: "Bungee", sans-serif;
+    color: rgb(205, 205, 205);
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 60px;
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    height: 50px;
+    gap: 60px;
+    justify-content: center;
+}
+
+.icons #css-logo {
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bottom-image img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    padding-bottom: 60px;
+    border-bottom: 4px dashed rgba(255, 255, 255, 0.6);
+}
+
+.github-link {
+    font-family: "Bungee", sans-serif;
+    color: rgb(205, 205, 205);
+    justify-content: center;
+    display: flex;
+}
+
+.github-link h5 {
+    padding-right: 40px;
+}
+
+.github-link img {
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+
+.projects-title h2 {
+    font-family: "Bungee", sans-serif;
+    background-image: linear-gradient(to right, rgb(127, 61, 165), rgb(151, 224, 249), rgb(81, 7, 104));
+    color: transparent;
+    background-clip: text;
+    border-bottom: 4px solid rgb(151, 224, 249, 0.8);
+    display: inline;
+}
+
+.projects-title p{
+    font-family: "Bungee", sans-serif;
+    font-size: 90%;
+    color: rgb(205, 205, 205);
+    margin-bottom: 40px;
+}
+
+.projects p {
+    font-family: "Bungee", sans-serif;
+    color: rgb(205, 205, 205);
+    margin-bottom: 40px;
+    font-size: 80%;
+}
+
+.individual-projects {
+    border: 4px solid rgba(255, 255, 255, 0.6);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-bottom: 50px;
+}
+
+.individual-projects h3 {
+    font-family: "Bungee", sans-serif;
+    background-image: linear-gradient(to right, rgb(127, 61, 165), rgb(151, 224, 249), rgb(81, 7, 104));
+    color: transparent;
+    background-clip: text;
+    grid-area: 1 / 1 / 2 / 3;
+    margin-left: 10px;
+}
+
+.individual-projects p {
+    grid-area: 2 / 2 / 3 / 4;
+    justify-self: end;
+    margin-top: 0;
+}
+
+.individual-projects #project-link-text {
+    font-family: "Bungee", sans-serif;
+    text-decoration: none;
+    color: rgba(151, 224, 249, 0.6);
+    grid-area: 2 / 5 / 3 / 5;
+    align-self: end;
+    margin-bottom: 8px;
+}
+
+.individual-projects .project-icon a img {
+    height: 30px;
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.individual-projects .project-icon {
+    grid-area: 2 / 5/ 3 / 6;
+    align-self: end;
+    justify-self: end;
+    margin-right: 10px;
+}
