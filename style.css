@@ -253,3 +253,9 @@ h1 {
     justify-self: end;
     margin-right: 10px;
 }
+
+@media screen and (max-width: 900px) {
+    .individual-projects #project-link-text {
+        margin-right: 80px;
+    }
+}
