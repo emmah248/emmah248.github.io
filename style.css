@@ -54,7 +54,7 @@ header .links a {
     transform: translate(-50%, -50%);
 }
 
-.contact-gif img #arrow-icon {
+.contact-gif img .arrow-icon {
     position: absolute;
     top: 25%;
     left: 50%;
@@ -257,5 +257,37 @@ h1 {
 @media screen and (max-width: 900px) {
     .individual-projects #project-link-text {
         margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .icons {
+        gap: 30px;
+    }
+
+    .icons #css-logo {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+    .contact-h4 img {
+        height: 70px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+
+    .contact-h4 h4 {
+        position: relative;
+        top: -10vh;
+        margin-bottom: 60px;
     }
 }
